@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './firstPage.module.css';
-
+// This page is for the navbar, it uses links to direct to the correct pages and also styles the buttons
 export default function NavBar() {
   return (
     <center>

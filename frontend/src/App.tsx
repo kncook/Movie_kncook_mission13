@@ -1,3 +1,5 @@
+//this is what was taught and learned within the videos
+
 // import React, { useState } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
@@ -45,6 +47,7 @@
 
 // export default App;
 
+//Below is what is needed specifically to allow routing to different pages, much simpler then above
 import { BrowserRouter } from 'react-router-dom';
 //import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import NavBar from './Navbar';

@@ -1,5 +1,5 @@
 import React from 'react';
-
+//podcast page with link to the favorite podcast
 function Podcast(props: any) {
   return (
     //can only return one thing and when you put it in a div is in only 1 thing
