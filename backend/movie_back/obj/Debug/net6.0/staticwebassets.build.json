@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MUhWEtAOKmD1rQQJV7wTwjuplRFqcWlmKam0Ggc7vYs=",
+  "Source": "movie_back",
+  "BasePath": "_content/movie_back",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

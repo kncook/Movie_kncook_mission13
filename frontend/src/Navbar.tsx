@@ -19,8 +19,15 @@ export default function NavBar() {
         >
           Movies
         </Link>
-        <Link className="btn btn-primary" to="/podcast">
+        <Link
+          className="btn btn-primary"
+          to="/podcast"
+          style={{ marginRight: '10px' }}
+        >
           Podcast
+        </Link>
+        <Link className="btn btn-primary" to="/movieList2">
+          MovieAPI
         </Link>
       </nav>
     </center>
