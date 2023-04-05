@@ -1,3 +1,4 @@
+//need to be the same data type
 export type Movie = {
   movieId: number;
   category: string;

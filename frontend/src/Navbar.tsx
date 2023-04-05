@@ -27,7 +27,7 @@ export default function NavBar() {
           Podcast
         </Link>
         <Link className="btn btn-primary" to="/movieList2">
-          MovieAPI
+          MoviesAPI
         </Link>
       </nav>
     </center>

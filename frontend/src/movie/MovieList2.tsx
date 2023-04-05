@@ -7,7 +7,7 @@ function MovieList2() {
   //useEffect means that if nothing has chnaged use it, otherwise fetch it!
   useEffect(() => {
     const fetchMovie = async () => {
-      const rsp = await fetch('https://localhost:7127/movie');
+      const rsp = await fetch('https://localhost:4000/movie'); //needs to match port for TA's to grade it. It was 7127 before
       const temp = await rsp.json();
       setMovieData(temp);
     };
@@ -16,6 +16,7 @@ function MovieList2() {
   }, []);
 
   return (
+    // creates the table
     <>
       <div className="row">
         <h4>The Best Movies!</h4>
